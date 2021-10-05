@@ -1,0 +1,69 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    
+  }
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+  li {
+  float: left;
+  }
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+        }
+  .active {
+    background-color: #af874c;
+        }
+
+#paragraph_1 {
+    text-align: center;
+}
+
+#intro_1 {
+    text-align: center;
+}
+
+#intro_res {
+    text-align: center;
+}
+#future_plans {
+    text-align: center;
+}
+
+#prof_expir {
+    text-align: center;
+}
+#Edu_exp {
+    text-align: center;
+}
+table, th, td {
+    margin: auto;
+    caption-side: bottom;
+    border: 2px solid black;
+ }
+
+ #Ex_act {
+    text-align: center;
+}
